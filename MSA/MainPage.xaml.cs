@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MSA.Pages;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -43,6 +44,12 @@ namespace MSA
             // Windows.Phone.UI.Input.HardwareButtons.BackPressed event.
             // If you are using the NavigationHelper provided by some templates,
             // this event is handled for you.
+        }
+
+        private void btnFacebookLogin_Click(object sender, RoutedEventArgs e)
+        {
+            //NavigationService.Navigate(new Uri("/Pages/FacebookLoginPage.xaml", UriKind.Relative));
+            Frame.Navigate(typeof(FacebookLoginPage));
         }
     }
 }

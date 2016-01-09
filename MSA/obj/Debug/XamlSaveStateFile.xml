@@ -1,5 +1,6 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
-    <LocalAssembly PathName="x:\projects\visualstudio\msa\msa\obj\debug\intermediatexaml\msa.exe" HashGuid="1415e959-d554-f445-bd71-061ef783ade7" />
+    <ReferenceAssembly PathName="x:\projects\visualstudio\msa\packages\facebook.client.1.0.4\lib\wpa81\facebook.client.dll" HashGuid="32d395fd-d10f-e96c-05be-bf064a7180f6" />
+    <ReferenceAssembly PathName="x:\projects\visualstudio\msa\packages\facebook.7.0.6\lib\portable-win81+wpa81\facebook.dll" HashGuid="b23a2499-2700-fb5e-a497-93d9e719fc0b" />
   </ReferenceAssemblyList>
 </XamlCompilerSaveState>

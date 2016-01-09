@@ -30,3 +30,12 @@ X:\Projects\VisualStudio\MSA\MSA\obj\Debug\qualifiers.txt
 X:\Projects\VisualStudio\MSA\MSA\obj\Debug\qualifiers.txt.intermediate
 X:\Projects\VisualStudio\MSA\MSA\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 X:\Projects\VisualStudio\MSA\MSA\obj\Debug\ProjectArchitectures.txt
+X:\Projects\VisualStudio\MSA\MSA\obj\Debug\MSA.csprojResolveAssemblyReference.cache
+X:\Projects\VisualStudio\MSA\MSA\obj\Debug\Pages\FacebookLoginPage.g.i.cs
+X:\Projects\VisualStudio\MSA\MSA\obj\Debug\Pages\FacebookLoginPage.g.cs
+X:\Projects\VisualStudio\MSA\MSA\obj\Debug\Pages\LandingPage.g.i.cs
+X:\Projects\VisualStudio\MSA\MSA\obj\Debug\Pages\LandingPage.g.cs
+X:\Projects\VisualStudio\MSA\MSA\obj\Debug\Pages\LandingPage.xaml
+X:\Projects\VisualStudio\MSA\MSA\obj\Debug\Pages\LandingPage.xbf
+X:\Projects\VisualStudio\MSA\MSA\obj\Debug\Pages\FacebookLoginPage.xaml
+X:\Projects\VisualStudio\MSA\MSA\obj\Debug\Pages\FacebookLoginPage.xbf

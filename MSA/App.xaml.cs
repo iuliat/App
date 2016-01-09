@@ -15,6 +15,10 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Media.Animation;
 using Windows.UI.Xaml.Navigation;
+using Facebook.Client;
+using Facebook;
+using MSA.ViewModel;
+//using MSA.ViewModel;
 
 // The Blank Application template is documented at http://go.microsoft.com/fwlink/?LinkId=391641
 
@@ -26,6 +30,11 @@ namespace MSA
     public sealed partial class App : Application
     {
         private TransitionCollection transitions;
+
+        internal static string AccessToken = String.Empty;
+        internal static string FacebookId = String.Empty;
+        public static bool isAuthenticated = false;
+        public static FacebookSessionClient FacebookSessionClient = new FacebookSessionClient(Constants.FacebookAppId);
 
         /// <summary>
         /// Initializes the singleton application object.  This is the first line of authored code
@@ -129,6 +138,13 @@ namespace MSA
 
             // TODO: Save application state and stop any background activity
             deferral.Complete();
+        }
+
+        protected override void OnActivated(IActivatedEventArgs args)
+        {
+            base.OnActivated(args);
+            var protocolArgs = args as ProtocolActivatedEventArgs;
+            LifecycleHelper.FacebookAuthenticationReceived(protocolArgs);
         }
     }
 }
