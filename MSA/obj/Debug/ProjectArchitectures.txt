@@ -1,0 +1,1 @@
+X:\Projects\VisualStudio\MSA\MSA\MSA.csproj;neutral
